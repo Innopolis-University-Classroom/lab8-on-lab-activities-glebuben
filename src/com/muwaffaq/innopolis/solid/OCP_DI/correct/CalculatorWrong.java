@@ -1,13 +1,3 @@
-//❌❌❌❌
-// how many SOLID Principle does it violate ?
-// Fix it !!
-
-// l - r
-// r + l
-// DI : high = Abstract class
-// low : classes
-//
-
 interface Operator{
     double apply(double left, double right);
 }
