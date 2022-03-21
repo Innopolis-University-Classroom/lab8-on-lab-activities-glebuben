@@ -5,7 +5,7 @@ import java.util.List;
 
 // lab work
 // This Class violates all SOLID Principles, fix it in a Logical way
-public class Human implements Needs {
+public class Human implements SociologicalNeeds, EconimicalNeeds {
 
     private String name;
     private String nickname;
