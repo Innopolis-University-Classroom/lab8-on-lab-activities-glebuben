@@ -12,10 +12,16 @@ import java.util.List;
  * it should only have one reason to change
  */
 
+public class Cost {
+    double totals;
+    void applyDiscount(int percentage) {
+        totals = totals * percentage;
+    }
+}
+
 public class Cart {
 
     List<Product> products;
-    double totals;
     String token;
 
     void addToCart(Product product) {
@@ -24,10 +30,6 @@ public class Cart {
 
     void removeFromCart(Product product) {
         products.remove(product);
-    }
-
-    void applyDiscount(int percentage) {
-        totals = totals * percentage;
     }
 
 
