@@ -12,7 +12,7 @@ import java.util.List;
  * it should only have one reason to change
  */
 
-public class Cost {
+public class Payment {
     double totals;
     void applyDiscount(int percentage) {
         totals = totals * percentage;
